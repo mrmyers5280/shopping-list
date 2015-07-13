@@ -2,3 +2,15 @@
 div {
     border: 1px solid red;
 }
+body {
+    background: url('../images/refridgerator-bkg.jpg') #ffffff no-repeat;
+    background-size: cover;
+    min-width: 768px;
+    margin-top: 110px;
+}
+.main {
+    background: url('../images/ruled-paper.jpg') #ffffff no-repeat;
+    width: 454px;
+    min-height: 350px;
+    margin: 0 auto;
+}
