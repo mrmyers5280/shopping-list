@@ -10,7 +10,27 @@ body {
 }
 .main {
     background: url('../images/ruled-paper.jpg') #ffffff no-repeat;
+    box-shadow: 10px 10px 5px #888888;
     width: 454px;
     min-height: 350px;
     margin: 0 auto;
+}
+.content {
+    padding-left: 110px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.content h1 {
+    font-family: 'Rock Salt', cursive;
+}
+.content input, .content li {
+    font-size: 1.5em;
+}
+.content input {
+}
+.content ul {
+    list-style: square url(../images/checkbox_empty.png);
+}
+.checked {
+    text-decoration: line-through;
+    list-style-image: url(../images/checkbox_full.png)
 }
