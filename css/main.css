@@ -5,21 +5,23 @@ div {
 body {
     background: url('../images/refridgerator-bkg.jpg') #ffffff no-repeat;
     background-size: cover;
-    min-width: 768px;
-    margin-top: 110px;
+    min-width: 80%;
+    margin-top: 10%;
 }
 .main {
     background: url('../images/ruled-paper.jpg') #ffffff no-repeat;
     box-shadow: 10px 10px 5px #888888;
-    width: 454px;
-    min-height: 350px;
+    width: 40%;
+    min-height: 31.818182%;
+    min-width: 400px;
     margin: 0 auto;
 }
 .content {
-    padding-left: 110px;
+    padding-left: 25%;
     font-family: 'Shadows Into Light', cursive;
 }
 .content h1 {
+    margin-left: -10%; /* to offset content padding */
     font-family: 'Rock Salt', cursive;
 }
 .content input, .content li {
