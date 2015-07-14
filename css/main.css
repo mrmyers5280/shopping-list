@@ -30,9 +30,9 @@ body {
 .content input {
 }
 .content ul {
-    list-style: square url(../images/checkbox_empty.png);
+    list-style: square url(../images/circle.png);
 }
 .checked {
     text-decoration: line-through;
-    list-style-image: url(../images/checkbox_full.png)
+    list-style-image: url(../images/circle-checked.png)
 }
