@@ -1,6 +1,6 @@
 // app.js
 $(document).ready(function() {
-    $('.shopping-list li').mousedown(function() {
+    $('.shopping-list').on('click', 'li', function() {
         // console.log('mousedown li')
         $(this).toggleClass('checked');
     });
