@@ -5,19 +5,19 @@
 body {
     background: url('../images/refrigerator-bkg-full.jpg') #ffffff no-repeat;
     background-size: cover;
-    min-width: 80%;
+    min-width: 400px;
     margin-top: 10%;
 }
 .main {
     background: url('../images/ruled-paper.jpg') #ffffff no-repeat;
     box-shadow: 10px 10px 5px #888888;
     width: 40%;
-    min-height: 31.818182%;
+    min-height: 350px;
     min-width: 400px;
     margin: 0 auto;
 }
 .content {
-    padding-left: 25%;
+    padding-left: 110px;
     font-family: 'Shadows Into Light', cursive;
 }
 .content h1 {
@@ -28,6 +28,7 @@ body {
     font-size: 1.5em;
 }
 .content input {
+    margin-left: 10px;
 }
 .content ul {
     list-style: square url(../images/circle.png);
