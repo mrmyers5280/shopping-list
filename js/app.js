@@ -5,7 +5,7 @@ $(document).ready(function() {
         $(this).toggleClass('checked');
     });
     // append user input as new item in list
-    $('#add-list-item').keydown(function(event) {
+    $('#add-list-item').keyup(function(event) {
         // console.log('keypress: ' + event.which);
         if (event.which == 13) {
             $('.shopping-list').append('<li>' + $('#add-list-item').val() + '</li>');
