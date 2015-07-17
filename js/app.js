@@ -23,6 +23,10 @@ $(document).ready(function() {
         }
     });
     // allow user to remove an item from the list
-    
+    $('.shopping-list').on('click', 'li span', function() {
+        //console.log(this.closest('li'));
+        $(this).closest('li').remove();
+    });
+
     // Allow user to drag items to re-order them
 });
