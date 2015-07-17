@@ -33,7 +33,7 @@ body {
 .content ul {
     list-style: square url(../images/circle.png);
 }
-.checked {
+li[aria-checked] {
     text-decoration: line-through;
     list-style-image: url(../images/circle-checked.png)
 }

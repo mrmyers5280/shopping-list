@@ -2,7 +2,13 @@
 $(document).ready(function() {
     $('.shopping-list').on('click', 'li', function() {
         // console.log('mousedown li')
-        $(this).toggleClass('checked');
+        if ($(this).attr('aria-checked') === '') {
+            //uncheck
+            $(this).removeAttr('aria-checked');
+        } else {
+            //check the box
+            $(this).attr('aria-checked', '');
+        }
     });
     // append user input as new item in list
     $('#add-list-item').keyup(function(event) {
@@ -16,5 +22,7 @@ $(document).ready(function() {
             alert('Please enter a value before trying to add an item.');
         }
     });
-    // allow user to remove and item from the list
+    // allow user to remove an item from the list
+    
+    // Allow user to drag items to re-order them
 });
