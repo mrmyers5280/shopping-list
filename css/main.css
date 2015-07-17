@@ -9,7 +9,7 @@ body {
     margin-top: 10%;
 }
 .main {
-    background: url('../images/ruled-paper.jpg') #ffffff no-repeat;
+    background: url('../images/ruled-paper.jpg') #ffffff repeat-y;
     box-shadow: 10px 10px 5px #888888;
     width: 40%;
     min-height: 350px;
