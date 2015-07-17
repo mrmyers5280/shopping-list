@@ -27,6 +27,7 @@ $(document).ready(function() {
         //console.log(this.closest('li'));
         $(this).closest('li').remove();
     });
-
     // Allow user to drag items to re-order them
+    $('.shopping-list').sortable();
+    $('.shopping-list').disableSelection();
 });
