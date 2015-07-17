@@ -15,7 +15,7 @@ $(document).ready(function() {
         // console.log('keypress: ' + event.which);
         if ($('#add-list-item').val() != '') {
             if (event.which == 13) {
-                $('.shopping-list').append('<li>' + $('#add-list-item').val() + '</li>');
+                $('.shopping-list').append('<li>' + $('#add-list-item').val() + '<span></span></li>');
                 $('#add-list-item').val('');
             }
         } else {
