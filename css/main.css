@@ -49,3 +49,19 @@ li[aria-checked] {
 .shopping-list li:hover span {
     display: inline-block;
 }
+
+@media only screen and (max-width: 400px) {
+    .main {
+        width: 33%;
+    }
+    .content {
+        padding-left: 5%;
+    }
+    .content h1 {
+        margin-left: 2%;
+    }
+}
+/*.main = width: 33%
+.content = padding-left: 10%
+.content h1 = margin-left: 2%
+*/
