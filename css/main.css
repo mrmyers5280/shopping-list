@@ -9,7 +9,8 @@ body {
 	margin-top: 10%;
 }
 .main {
-	background: url('../images/ruled-paper.jpg') #ffffff repeat-y;
+	/*background: url('../images/ruled-paper.jpg') #ffffff repeat-y;*/
+	background-color: #f5f5f5;
 	box-shadow: 10px 10px 5px #888888;
 	width: 40%;
 	min-height: 350px;
@@ -17,7 +18,7 @@ body {
 	margin: 0 auto;
 }
 .content {
-	padding-left: 110px;
+	padding-left: 10px;
 	font-family: 'Shadows Into Light', cursive;
 }
 .content h1 {
@@ -33,9 +34,24 @@ body {
 .content ul {
 	list-style: square url(../images/circle.png);
 }
+.lines {
+	border-left: 1px solid #ffaa9f;
+	border-right: 1px solid #ffaa9f;
+	width: 2px;
+	float: left;
+	height: 350px;
+	margin-left: 40px;
+}​
 li[aria-checked] {
 	text-decoration: line-through;
 	list-style-image: url(../images/circle-checked.png)
+}
+.shopping-list {
+	padding: 0 !important;
+}
+.shopping-list li {
+	border-bottom: 1px dotted #ccc;
+	text-indent: 25px;
 }
 .shopping-list li span {
 	background: url(../images/delete-icon.png) center center no-repeat;
