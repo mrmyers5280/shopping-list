@@ -9,6 +9,7 @@
 // app.js
 $(document).ready(function() {
 	var shoppingList = $('.shopping-list');
+	var addListItem = $('#add-list-item');
 	var lines = $('.lines');
 	shoppingList.on('click', 'li', function() {
 		// console.log('mousedown li')
