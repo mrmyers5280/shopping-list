@@ -34,6 +34,10 @@ body {
 .content ul {
 	list-style: square url(../images/circle.png);
 }
+li[aria-checked] {
+	text-decoration: line-through;
+	list-style-image: url(../images/circle-checked.png)
+}
 .lines {
 	border-left: 1px solid #ffaa9f;
 	border-right: 1px solid #ffaa9f;
@@ -42,12 +46,8 @@ body {
 	height: 350px;
 	margin-left: 40px;
 }​
-li[aria-checked] {
-	text-decoration: line-through;
-	list-style-image: url(../images/circle-checked.png)
-}
 .shopping-list {
-	padding: 0 !important;
+	padding: 0;
 }
 .shopping-list li {
 	border-bottom: 1px dotted #ccc;
