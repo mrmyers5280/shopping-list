@@ -22,12 +22,12 @@ $(document).ready(function() {
 		}
 	});
 	// append user input as new item in list
-	$('#add-list-item').keyup(function(event) {
+	addListItem.keyup(function(event) {
 		// console.log('keypress: ' + event.which);
-		if ($('#add-list-item').val() != '') {
+		if (addListItem.val() != '') {
 			if (event.which == 13) {
-				shoppingList.append('<li>' + $('#add-list-item').val() + '<span></span></li>');
-				$('#add-list-item').val('');
+				shoppingList.append('<li>' + addListItem.val() + '<span></span></li>');
+				addListItem.val('');
 				lines.css('height', addHeight());
 			}
 		} else {
